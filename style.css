@@ -1,0 +1,250 @@
+
+@font-face {
+    font-family: brush;
+    src: url('./fonts/brush.ttf');
+}
+
+
+.animacao {
+    position: relative;
+  }
+  
+  .animacao p {
+    position: absolute;
+    left: 0;
+    animation: mover 10s ease-in-out infinite;
+  }
+  
+  @keyframes mover {
+    0% {
+      transform: translateX(0);
+    }
+    5% {
+      transform: translateX(10%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+input::placeholder,
+textarea::placeholder {
+    font-family: Arial, sans-serif; /* Altere a fonte para a desejada */
+    font-size: 14px; /* Altere o tamanho da fonte para o desejado */
+    color: #000000; /* Altere a cor do placeholder para a desejada */
+  }
+
+.menu ul, li{
+   
+ padding: 0;
+ margin: 0;
+ list-style-type: none;  
+ display: inline-block;
+ margin-right: 10px;
+ font-family: brush;
+ font-size: 18px;
+ margin-left: 10px;
+
+ transition: all 0.3s ease;
+    
+
+}
+
+.menu ul, li:hover{
+
+    transform: scale(1.1);
+
+}
+
+.menu {
+
+margin: auto;
+max-width: 500px;
+width: 100%;
+margin-top: 45px;
+text-align: center;
+
+
+
+}
+
+.menu a{
+    
+text-decoration: none;
+color: rgb(255, 255, 255);
+background-color: rgb(255, 0, 0);
+border-radius: 5px;
+padding: 7px;
+-webkit-box-shadow: 1px 1px 20px 0 #000000;
+-moz-box-shadow: 1px 1px 20px 0 #000000;
+box-shadow: 1px 1px 20px 0 #000000;
+text-shadow: 0 1px 20px #000000;
+border: 1px solid rgb(255, 255, 255);
+
+}
+
+.menu-login label{
+
+display: block;
+font-family: brush;
+font-size: 24px;
+color: rgb(255, 255, 255);
+font-weight: bold;
+
+
+text-align: center;
+
+
+}
+
+.menu-login {
+
+margin: auto;
+max-width: 300px;
+width: 100%;
+margin-top: 25px;
+
+border-radius: 10px;
+-moz-border-radius: 20px;
+color: #00E2FF;
+font-family: brush;
+background-color: #e12525;
+-webkit-box-shadow: 1px 1px 20px 0 #000000;
+-moz-box-shadow: 1px 1px 20px 0 #000000;
+box-shadow: 1px 1px 20px 0 #000000;
+text-shadow: 0 1px 20px #000000;
+border: solid hsl(0, 0%, 100%) 2px;
+text-decoration: none;
+font-size: 22px;
+text-align: center;
+
+
+
+}
+
+.menu-login input[type=text], input[type=email], input[type=password]{
+
+border-radius: 10px;
+height: 20px;
+
+
+}
+
+
+.menu-login input[type=submit]{
+
+
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(229, 215, 215) 0%, #ffffff 100%);
+    border: none;
+    color: rgb(230, 29, 29);
+    width: 100px;
+    padding: 10px 32px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+
+hr{
+
+color: white;
+
+}
+
+span{
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+color: rgb(255, 255, 255);
+font-weight: bolder;
+
+
+}
+
+
+body{
+
+background-image: linear-gradient(270.4deg, rgba(190, 56, 122, 1) 14.6%, rgba(190, 24, 49, 1) 150%);
+
+}
+
+.img{
+
+margin: auto;
+width: 300px;
+position: relative;
+right: 75px;
+top: 28px;
+
+
+}
+
+
+.img-login {
+
+  margin: auto;
+  width: 300px;
+  position: relative;
+  right: 8px;
+  top: 58px;
+
+}
+
+
+footer{
+    width: 100vw;
+    position: relative;
+    margin: 0 auto;
+    max-width: 350px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: black;
+    border-radius: 8px;
+    z-index: 10;
+    top: -5px;
+    left: 35px;
+    
+    
+
+}
+
+footer a{
+
+text-decoration: none;
+color: white;
+
+
+}
+
+footer p{
+
+border-radius: 7px;
+   color: #fdfdfd;
+   font-family: brush;
+   text-shadow: 0 1px 20px #000000;
+   text-decoration: none;
+   font-size: 17px;
+   background-color: rgb(255, 0, 0);
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+-moz-box-shadow: 1px 1px 20px 0 #000000;
+box-shadow: 1px 1px 20px 0 #000000;
+text-shadow: 0 1px 20px #000000;
+border: 1px solid white;
+
+}
+
+a{
+
+text-decoration: none;
+color: rgb(164, 142, 142);
+
+}
+
+.painel{
+
+margin: auto;
+max-width: 300px;
+width: 100%;
+margin-top: 5px;
+
+}
